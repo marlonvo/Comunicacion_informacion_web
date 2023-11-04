@@ -1,0 +1,272 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.select {
+    height: 40px;
+}
+
+.cursos {
+    width: 100px;
+}
+
+.btn {
+    background-color: #27B09F;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #8f3030;
+    color: #ffffff;
+}
+
+.logo img {
+    width: 70px;
+    padding-top: 20px;
+}
+
+.clip {
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 70% 94%, 48% 100%, 25% 96%, 0 100%, 0 43%, 0 0);
+    background-color: #86A789;
+}
+
+.banner1 {
+    background-image: url("../img/Feliz.png");
+    position: relative;
+    height: 600px;
+    background-position: center;
+    display: flex;
+    box-shadow: -5px -32px 46px -6px rgba(0, 0, 0, 0.57) inset;
+    -webkit-box-shadow: -5px -32px 46px -6px rgba(0, 0, 0, 0.57) inset;
+    -moz-box-shadow: -5px -32px 46px -6px rgba(0, 0, 0, 0.57) inset;
+    align-items: center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 70% 94%, 48% 100%, 25% 96%, 0 100%, 0 43%, 0 0);
+}
+
+.banner2 {
+    background-image: url("../img/banner1.jpg");
+    position: relative;
+    height: 300px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    background-color: rgb(88, 88, 88);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: d 2s ease infinite alternate;
+}
+
+.tx1 {
+    line-height: 200px !important;
+    padding-left: 450px;
+    font-size: 60px;
+}
+
+.section1 {
+    box-shadow: -6px -17px 77px 31px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: -6px -17px 77px 31px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: -6px -17px 77px 31px rgba(0, 0, 0, 0.55);
+}
+
+.izquierda {
+    width: 500px;
+}
+
+.titulo1 {
+    font-size: 40px;
+}
+
+.parrafo1 {
+    font-size: 20px;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.icono1 {
+    width: 80px;
+}
+
+.sect-ubi {
+    background-color: hsl(217, 15%, 38%);
+}
+
+.sct-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion3 {
+    background-color: #ffffff;
+}
+
+.sct-formulario_formulario {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.sct-formulario_titulo {
+    font-size: 70px;
+    margin-top: 40px;
+    margin-bottom: 5%;
+}
+
+.sct-formulario_formulario .sct-formulario_formulario_sub-titulo {
+    margin-bottom: 10px;
+}
+
+.sct-formulario_formulario .form-todo {
+    width: 46%;
+}
+
+.sct-formulario_formulario .form-comment {
+    width: 46%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.sct-formulario_formulario .form-comment p {
+    align-items: center;
+}
+
+.sct-formulario_formulario .subtitulo-inf {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.sct-formulario_formulario #txt-nombre {
+    display: flex;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.sct-formulario_formulario #txt-correo {
+    display: flex;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.sct-formulario_formulario #txt-telefono {
+    display: flex;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.sct-formulario_formulario #txt-comentario {
+    height: 120px;
+    width: 100%;
+    margin-bottom: 20px;
+    align-self: flex-end;
+}
+
+.sct-formulario_formulario .btn-enviar {
+    border-width: 0;
+    height: 40px;
+    width: 40%;
+    margin-bottom: 20px;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    background-color: #27B09F;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.sct-formulario .btn-enviar:hover {
+    border: 0 solid white;
+    border-radius: 2px;
+    background-color: #8f3030;
+    color: #ffffff;
+}
+
+.video1 iframe {
+    height: 200px;
+    width: 400px;
+}
+
+@media (max-width: 576px) {
+    .ti-1 {
+        font-size: 50px;
+        color: rgb(0, 0, 0);
+    }
+    .pd {
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 576px) {
+    .ti-1 {
+        font-size: 50px;
+        color: rgb(0, 0, 0);
+    }
+    .pd {
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 768px) {
+    .ti-1 {
+        font-size: 50px;
+        color: rgb(0, 0, 0);
+    }
+    .pd {
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 992px) {
+    .ti-1 {
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+    }
+    .pd {
+        font-size: 25px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .ti-1 {
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+    }
+    .pd {
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .ti-1 {
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+    }
+    .pd {
+        font-size: 20px;
+    }
+}
