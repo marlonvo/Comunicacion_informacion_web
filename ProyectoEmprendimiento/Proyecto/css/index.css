@@ -1,0 +1,209 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    background-color: #A0C49D;
+    border-color: #F7FFE5;
+    color: #F7FFE5;
+}
+
+.btn:hover {
+    background-color: #CFB997;
+}
+
+nav {
+    background-color: #A0C49D;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.logo img {
+    width: 70px;
+    padding-top: 20px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.optmenu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    transition: all 1s solid;
+}
+
+.optmenu:hover {
+    color: #000000;
+    background-color: #F7FFE5;
+    transition: all 1s solid;
+    border-radius: 5px;
+}
+
+.optmenu:active {
+    background-color: #F7FFE5;
+}
+
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler {
+    background-color: #637E76;
+    border: 1px solid #ffffff;
+}
+
+.navbar-toggler:hover {
+    background-color: #637E76;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #ffffff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.banner1 {
+    background-image: url("../img/banner1.webp");
+    position: relative;
+    height: calc(100vh);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+    background-color: rgb(88, 88, 88);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: d 2s ease infinite alternate;
+}
+
+.banner2 {
+    background-image: url("../img//banner2.webp");
+    position: relative;
+    height: calc(50vh);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+    background-color: rgb(88, 88, 88);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: d 2s ease infinite alternate;
+}
+
+.titulo1 {
+    font-size: 60px;
+}
+
+.parrafo1 {
+    font-size: 28px;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.choose {
+    width: 500px;
+}
+
+.imgsu {
+    width: 400px;
+    padding-left: 150px;
+}
+
+.imgplo {
+    width: 400px;
+    padding-left: 150px;
+}
+
+.cuadro1 {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #a0c49d8f;
+}
+
+.foo {
+    background-color: #637E76;
+}
+
+.logofo {
+    width: 200px;
+}
+
+.card-img-top {
+    height: 100px;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.imghvr-flip-horiz {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.accordion-button:hover {
+    background-color: #A0C49D;
+    color: #000;
+    border-bottom: #637E76;
+}
+
+.accordion-button {
+    background-color: #A0C49D;
+    color: #000;
+    border-bottom: #637E76;
+}
+
+.ti1 {
+    font-size: 4rem;
+}
+
+.p1 {
+    font-size: 1.5rem;
+}
+
+.c1 {
+    font-size: 2rem;
+}
+
+.ti2 {
+    font-size: 2.5rem;
+}
+
+.p2 {
+    font-size: 1rem;
+}
+
+.card-img-top1 {
+    width: 300px;
+    height: 300px;
+}
+
+.card1 {
+    justify-content: center;
+    align-items: center;
+}

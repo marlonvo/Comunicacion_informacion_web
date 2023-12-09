@@ -1,0 +1,97 @@
+.sct-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sct-formulario_formulario {
+    background-color: #A0C49D;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 420px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    clip-path: polygon(0 0, 100% 0, 100% 69%, 0% 100%);
+}
+
+.sct-formulario_titulo {
+    font-size: 70px;
+    margin-top: 40px;
+    margin-bottom: 5%;
+}
+
+.sct-formulario_formulario .sct-formulario_formulario_sub-titulo {
+    margin-bottom: 10px;
+}
+
+.sct-formulario_formulario .form-todo {
+    width: 46%;
+}
+
+.sct-formulario_formulario .form-comment {
+    width: 46%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.sct-formulario_formulario .form-comment p {
+    align-items: center;
+}
+
+.sct-formulario_formulario .subtitulo-inf {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.sct-formulario_formulario #txt-nombre {
+    display: flex;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.sct-formulario_formulario #txt-correo {
+    display: flex;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.sct-formulario_formulario #txt-telefono {
+    display: flex;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.sct-formulario_formulario #txt-comentario {
+    height: 100px;
+    width: 90%;
+    margin-bottom: 20px;
+    align-self: flex-end;
+}
+
+.sct-formulario_formulario .btn-enviar {
+    background: #637E76;
+    border-width: 0;
+    height: 40px;
+    width: 40%;
+    margin-bottom: 20px;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.sct-formulario .btn-enviar:hover {
+    background-color: #567189;
+    color: white;
+    border: 0 solid white;
+    border-radius: 2px;
+}
